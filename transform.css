@@ -1,0 +1,109 @@
+.child{
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    list-style-type: none ;
+    color: #000;
+}
+/* .div1{
+    display: flex;
+    width: 100px; 
+    height: 10px;
+    justify-content: space-between;
+} */
+.head{
+    display: flex;
+    /* margin-left: 50px;*/
+    /* width: 400px;
+    height: 100px;  */
+    /* margin-left: 200px; */
+    margin-left: 10px;
+    justify-content: space-evenly;
+    background-color: rgb(107, 201, 228);
+}
+.head:hover{
+    
+    color: rgb(3, 30, 30);
+    position: relative;
+    transform: matrix3d(4.0);
+    border: 2px solid ;
+    height: 70px;
+}
+.h1{
+    padding-left: 470px;
+    color:rebeccapurple;
+}
+p{
+    font-size: 12px;
+    font-weight: bold;
+
+}
+.put{
+    margin-left: 180px;
+    margin-top: 23px;
+    width: 400px;
+    height: 20px;
+}
+img{
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+}
+img:hover{
+    transform: scale(1.2) rotate(90deg)skew(360deg);
+    /* transform: translate(10px); */
+}
+.li1{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    /* margin-top: 10px; */
+    direction: right;
+    color: blue;
+    
+}
+.li2{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    color:red;
+}
+.li3{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    color:royalblue;
+}
+.li4{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    color: rgb(182, 155, 23);
+}
+.li5{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    transform:scale3d(20deg 10deg 45deg);
+    color: rgb(69, 175, 45);
+}
+.hh{
+    padding-left: 500px;
+    color: rgba(195, 65, 29, 0.553);
+    color: rgb(198, 20, 156);
+}
+.foot h3{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(107, 167, 240);
+    color: black;
+    font-style: bold;
+    padding-bottom: 5px;
+    padding-top: 3px;
+    border: 1px solid;
+}
