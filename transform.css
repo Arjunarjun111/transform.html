@@ -5,12 +5,7 @@
     list-style-type: none ;
     color: #000;
 }
-/* .div1{
-    display: flex;
-    width: 100px; 
-    height: 10px;
-    justify-content: space-between;
-} */
+
 .head{
     display: flex;
     /* margin-left: 50px;*/
@@ -107,3 +102,163 @@ img:hover{
     padding-top: 3px;
     border: 1px solid;
 }
+/* mobile*/
+@media (max-width: 480px) {
+  .child {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .head {
+    flex-direction: column;
+    margin-left: 0;
+    padding: 10px;
+  }
+  .h1 {
+    padding-left: 0;
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 12px;
+  }
+  .put {
+    width: 100%;
+    margin: 10px 0;
+  }
+  img {
+    width: 80px;
+    height: 80px;
+    margin-top: 5px;
+  }
+  img:hover {
+    transform: scale(1.1) rotate(90deg) skew(20deg);
+  }
+  .li1, .li2, .li3, .li4, .li5 {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+  }
+  .hh {
+    padding-left: 0;
+    font-size: 1rem;
+  }
+  .foot h3 {
+    font-size: 1rem;
+    padding: 5px;
+  }
+}
+/* Tablet (481 px–768 px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .child {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .head {
+    margin-left: 5px;
+  }
+  .h1 {
+    padding-left: 10px;
+    font-size: 2rem;
+  }
+  p {
+    font-size: 14px;
+  }
+  .put {
+    width: 80%;
+    margin: 15px 0;
+  }
+  img {
+    width: 90px;
+    height: 90px;
+  }
+  img:hover {
+    transform: scale(1.15) rotate(90deg) skew(45deg);
+  }
+  .li1, .li2, .li3, .li4, .li5 {
+    width: 150px;
+    height: 150px;
+  }
+  .hh {
+    padding-left: 20px;
+    font-size: 1.25rem;
+  }
+  .foot h3 {
+    font-size: 1.25rem;
+    padding: 8px;
+  }
+}
+
+/* Small Laptops (769 px–1024 px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .child {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .head {
+    margin-left: 10px;
+  }
+  .h1 {
+    padding-left: 300px;
+    font-size: 2.5rem;
+  }
+  p {
+    font-size: 16px;
+  }
+  .put {
+    width: 400px;
+    margin: 20px auto;
+  }
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  img:hover {
+    transform: scale(1.2) rotate(90deg) skew(360deg);
+  }
+  .li1, .li2, .li3, .li4, .li5 {
+    width: 200px;
+    height: 200px;
+  }
+  .hh {
+    padding-left: 500px;
+    font-size: 2rem;
+  }
+  .foot h3 {
+    font-size: 1.5rem;
+    padding: 10px;
+  }
+}
+
+/*  Desktop (1025 px–1200 px) */
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .child {
+    gap: 20px;
+  }
+  .head {
+    margin-left: 10px;
+  }
+  .h1 {
+    padding-left: 470px;
+  }
+  p {
+    /* retain base 12px or bump as desired */
+  }
+  .put {
+    margin-left: 180px;
+    margin-top: 23px;
+  }
+  img { /* base sizes */ }
+  .li1, .li2, .li3, .li4, .li5 { /* base sizes */ }
+  .hh { /* base padding */ }
+  .foot h3 {
+    padding-top: 3px;
+    padding-bottom: 5px;
+  }
+}
+/*Extra‑Large (≥ 1201 px)*/
+@media (min-width: 1201px) {
+  /* Base / desktop CSS covers this range */
+}
+
+
