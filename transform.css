@@ -88,7 +88,7 @@ img:hover{
     color: rgb(69, 175, 45);
 }
 .hh{
-    padding-left: 350px;
+    padding-left: 100px;
     color: rgba(195, 65, 29, 0.553);
     color: rgb(198, 20, 156);
 }
@@ -139,7 +139,7 @@ img:hover{
     padding: 5px;
   }
   .hh {
-    padding-left:-30px;
+    padding-left:20px;
     font-size: 1rem;
   }
   .foot h3 {
